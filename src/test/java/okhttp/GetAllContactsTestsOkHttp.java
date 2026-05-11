@@ -35,7 +35,13 @@ public class GetAllContactsTestsOkHttp {
         List<ContactDTO> contacts = contactsDTO.getContacts();
         for(ContactDTO c:contacts){
             System.out.println(c.getId());
+            System.out.println(c.getName());
+            System.out.println(c.getLastName());
+            System.out.println(c.getPhone());
             System.out.println(c.getEmail());
+            System.out.println(c.getAddress());
+            System.out.println(c.getDescription());
+
             System.out.println("===================");
         }
     }
