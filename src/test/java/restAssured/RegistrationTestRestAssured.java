@@ -78,7 +78,7 @@ public class RegistrationTestRestAssured {
     @Test
     public void registrationRegisteredUser() {
         AuthRequestDTO auth = AuthRequestDTO.builder()
-                .username("margo@gmail.com").password("Mmar123456$").build();
+                .username("np7788@inbox.ru").password("WadiNisnas8#").build();
         given()
                 .body(auth)
                 .contentType(ContentType.JSON)
